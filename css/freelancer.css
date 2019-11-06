@@ -71,6 +71,11 @@ body {
   background-color: #fff;
 }
 
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
@@ -9754,7 +9759,8 @@ a.text-dark:hover, a.text-dark:focus {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: rgba(51,0,111,.8)
+  /* background-color: rgba(26, 188, 156, 0.9); */
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
