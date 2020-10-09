@@ -45,60 +45,59 @@
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger font-weight-normal" href="#publications">Publications</a>
           </li>
-          <!-- <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
-          </li> -->
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger font-weight-normal" href="#teaching">Teaching</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger font-weight-normal" href="#service">Service</a>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- Masthead -->
-  <header class="masthead bg-white text-secondary text-center">
-    <div class="container d-flex align-items-center flex-column">
+  <!-- About Section -->
+  <!-- <section class="page-section About" id="about"> -->
+  <header class="masthead bg-white text-secondary text-center" id="about">
+    <div class="container">
 
-      <!-- Masthead Avatar Image -->
-      <img class="masthead-avatar mb-5" src="img/momona_yamagami.jpg" alt="">
-
-      <!-- Masthead Heading -->
-      <h1 class="masthead-heading text-capitalizedcase font-weight-normal mb-0">Momona Yamagami</h1>
-
+      <!-- About Section Heading -->
+      <h1 class="masthead-heading text-capitalizedcase font-weight-normal mb-0 text-center">Momona Yamagami</h1>
       <!-- Icon Divider -->
       <div class="divider-custom divider-light">
         <div class="divider-custom-line"></div>
       </div>
-
-      <!-- Masthead Subheading -->
-      <p class="masthead-subheading font-weight-light mb-0">HCI Researcher - PhD Candidate</p>
-
-    </div>
-  </header>
-
-  <!-- About Section -->
-  <section class="page-section About" id="about">
-    <div class="container">
-
-      <!-- About Section Heading -->
-
-      <h2 class="page-section-heading text-center text-uppercase text-secondary font-weight-light mb-0">About</h2>
+      <p class="masthead-subheading font-weight-light mb-0 text-center">HCI Researcher - PhD Candidate</p>
+      <!-- <h2 class="page-section-heading text-center text-uppercase text-secondary font-weight-light mb-0">About</h2> -->
       <hr>
       <div class="row">
-        <div class="col-10 m-auto">
-          <p >  </p>
-          <!-- <img class="img-fluid" src="img/momona_yamagami.jpg" alt=""> -->
-          <p class="lead">I am a PhD candidate at the University of Washington in Seattle, WA,
-            advised by Drs. <a href='https://steelelab.me.uw.edu/' class="text-secondary" style="text-decoration: underline">Kat Steele</a> and <a href='https://faculty.washington.edu/sburden/bio/'class="text-secondary" style="text-decoration: underline">Sam Burden</a>.
-          I work in the intersection of control theory, rehabilitation, and accessibility in human-computer interaction.</p>
-          <p class='lead'> My research focuses on on modeling and enhancing device accessibility for people with limited movement,
-            with the goal of making it easier for people of all abilities to interact with devices.
-            I aim to incorporate <b>quantitative and theory-driven approaches</b> to HCI systems to model and enhance interaction.
-            I use linear-systems theory to:</p>
-          <p class='lead'>1) model continuous device interaction, </p>
-          <p class='lead'>2) explore novel methods of interaction such as muscle interfaces, and</p>
-          <p class='lead'>3) explore novel algorithms that flexibly optimize device interaction as user needs change over the course of minutes, days, and years. </p>
+        <!-- <div class="col-10 m-auto">
+          <p >  </p> -->
+          <div class="col-md-6 col-lg-4">
+              <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <img class="img-fluid" src="img/momona_yamagami.jpg" alt="Headshot of a female-presenting person with round glasses and short, black hair.">
+            </div>
+          </div>
 
+          <div class="col-md-10 col-lg-7">
+            <p class="lead text-left">I am a PhD candidate at the University of Washington in Seattle, WA,
+              advised by Drs. <a href='https://steelelab.me.uw.edu/' class="text-secondary" style="text-decoration: underline">Kat Steele</a> and <a href='https://faculty.washington.edu/sburden/bio/'class="text-secondary" style="text-decoration: underline">Sam Burden</a>.
+              My research focuses on <i>modeling and enhancing human movement</i> in the intersection of controls,
+               rehabilitation, and accessibility in human-computer interaction (HCI).
+             I am developing novel input techniques to promote ubiqutious rehabilitation
+             for people with limited movement  through
+             accessible design. </p>
+            <p class='lead text-left'> My dissertation research primarily focuses on modeling
+              and enhancing continuous device interaction for people with and without limited movement
+              using electromyography (EMG, electrical signals from muscles) signals
+              as an accessible and novel input technique.
+              My future research plans include the design and development of novel input techniques
+              that <i>promote rehabilitation while enhancing device accessibility</i>. </p>
+
+            </div>
         </div>
-    </section>
+      </div>
+    </header>
 
   <!-- Research Section -->
   <section class="page-section portfolio" id="research">
@@ -123,40 +122,24 @@
         </div>
 
         <div class="col-md-10 col-lg-7">
-            <p class='lead'> <b>MUSCLE INTERFACES FOR IMPROVING INTERACTION</b></p>
-            <p class='lead'> EMG is an attractive alternative method for long-term device interaction because it is noninvasive while providing clearly distinguishable signals.
-Muscle interfaces are a desirable alternative to manual interfaces that can enable users with motor impairments to interact effectively and unobtrusively with their device.
-The placement of the muscle sensors can be personalized so that users can adapt the interface to their own ability level.
-Muscle interfaces could enable bilateral device interaction decreasing fatigue and errors for users with motor impairments. </p>
+            <p class='lead text-capitalizedcase'> <b>Muscle Interfaces for Contiuous Device Accessibility</b></p>
+            <p class='lead'> Electromyography, or EMG data is useful because even if
+               a person does not have the muscle strength to move their arms, we can
+               still pick up weak EMG signals that signify the person’s intent to move their arms.
+               I explore EMG data as a viable alternative to a manual computer interface
+               to control a cursor on a screen.
+               Both users with and without limited movementpreferred and performed better with the muscle versus the
+               manual interface for the complex continuous task. Error correction, but not
+               underlying user intent, was altered among the users with limited movement.
+               These results suggest muscle interfaces and algorithms that can detect and
+               augment user intent may be especially useful for future design of interfaces for continuous tasks.
+             </p>
           <button class="btn btn-primary" data-toggle="modal" data-target="#portfolioModal3">
             <i class="fas fa-plus fa-fw"></i>
             Learn more
           </button>
           <p></p>
         </div>
-
-        <!-- Research Item 2 -->
-        <!-- <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/research/handedness.PNG" alt="">
-          </div>
-        </div>
-        <div class="col-md-10 col-lg-7">
-            <p class='lead'> <b>MODELING CONTINUOUS INTERACTIONS</b></p>
-            <p class='lead'> I propose and evaluate an experimental and analysis method to model continuous interactions for a simple trajectory-tracking task using control theory.
-            I demonstrate how control theory can be useful in separating user intent from error correction,
-            and why this is useful in developing performance metrics for evaluating continuous task performance. </p>
-            <button class="btn btn-primary" data-toggle="modal" data-target="#portfolioModal2">
-              <i class="fas fa-plus fa-fw"></i>
-              Learn more
-            </button>
-            <p></p>
-        </div> -->
 
         <!-- Research Item 1 -->
         <div class="col-md-6 col-lg-4">
@@ -170,9 +153,13 @@ Muscle interfaces could enable bilateral device interaction decreasing fatigue a
           </div>
         </div>
         <div class="col-md-10 col-lg-7">
-            <p class='lead'> <b>MODELING CONTINUOUS INTERACTIONS</b></p>
-            <p class='lead'> I evaluate whether feedforward and feedback controllers are affected by handedness for users without motor impairments,
-              and whether learned feedforward controllers are transferred between learned and unlearned hands. </p>
+            <p class='lead'> <b>Modeling Intent and Error Correction During Continuous Interactions</b></p>
+            <p class='lead'> Deriving user intent from continuous interactions like mouse navigation or driving a car
+              is a complicated modeling task. I use methods from control theory to model intent
+              (feedforward control) and error correction (feedback control) for a one-dimensional
+              trajectory-tracking task to compare learned controllers between the dominant and
+              non-dominant hands.
+              </p>
               <button class="btn btn-primary" data-toggle="modal" data-target="#portfolioModal1">
                 <i class="fas fa-plus fa-fw"></i>
                 Learn more
@@ -201,9 +188,9 @@ Muscle interfaces could enable bilateral device interaction decreasing fatigue a
           <br><em>Under review in IEEE Transactions on Cybernetics</em>
         | <a href='https://www.biorxiv.org/content/biorxiv/early/2020/08/04/2020.08.01.232454.full.pdf' class="text-secondary" style="text-decoration: underline"> Link to draft </a></p>
 
-          <p class="lead">Effects of Virtual Reality Environments on Overground Walking in People With Parkinson Disease and Freezing of Gait
+          <!-- <p class="lead">Effects of Virtual Reality Environments on Overground Walking in People With Parkinson Disease and Freezing of Gait
           <br><b>Momona Yamagami</b>, Sheri Imsdahl, Olivia Bellatin, Nawat Nhan, Samuel A Burden, Sujata Pradhan, Valerie E Kelly
-          <br><em>Under review in Disability and Rehabilitation: Assistive Technology</em></p>
+          <br><em>Under review in Disability and Rehabilitation: Assistive Technology</em></p> -->
 
           <p class="lead">Decoding Intent With Control Theory: Comparing Muscle Versus Manual Interface Performance
           <br><b>Momona Yamagami</b>, Katherine M Steele, Samuel A Burden
@@ -211,22 +198,72 @@ Muscle interfaces could enable bilateral device interaction decreasing fatigue a
           2020. | <a href='img\research\Paper097.pdf' style="text-decoration: underline" class="text-secondary"> Link </a> |
           <a href='https://youtu.be/KU7c6DjAUuQ' style="text-decoration: underline" class="text-secondary"> Video </a></p>
 
-          <h4> 2019 </h4>
+          <!-- <h4> 2019 </h4>
           <p class="lead">Experiments with Sensorimotor Games in Dynamic Human/Machine Interaction
           <br>Benjamin Chasnov, <b>Momona Yamagami</b>, Behnoosh Parsa, Lillian J Ratlif, Samuel A Burden
           <br><em>Micro- and Nanotechnology Sensors, Systems, and Applications XI, International Society for Optics and Photonics</em>
-          | <a href='https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10982/109822A/Experiments-with-sensorimotor-games-in-dynamic-humanmachine-interaction/10.1117/12.2519258.full' style="text-decoration: underline" class="text-secondary"> Link</a></p>
+          | <a href='https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10982/109822A/Experiments-with-sensorimotor-games-in-dynamic-humanmachine-interaction/10.1117/12.2519258.full' style="text-decoration: underline" class="text-secondary"> Link</a></p> -->
 
           <h4> 2018 </h4>
-          <!-- <p class="lead">Contributions of Feedforward and Feedback Control in a Manual Trajectory-Tracking Task
+          <p class="lead">Contributions of Feedforward and Feedback Control in a Manual Trajectory-Tracking Task
           <br><b>Momona Yamagami</b>, Darrin Howell, Eatai Roth, Samuel A Burden
-          <br><em>2nd IFAC Conference on Cyber-Physical & Human Systems </em> | <a href='https://www.sciencedirect.com/science/article/pii/S2405896319300278' style="text-decoration: underline"> Link</a></p> -->
+          <br><em>2nd IFAC Conference on Cyber-Physical & Human Systems </em> |
+          <a href='https://www.sciencedirect.com/science/article/pii/S2405896319300278' style="text-decoration: underline"  class="text-secondary"> Link</a></p>
 
           <p class="lead">Assessment of Dry Epidermal Electrodes for Long-Term Electromyography Measurements
           <br><b>Momona Yamagami</b>, Keshia M Peters, Ivana Milanovic, Irene Kuang, Zeyu Yang, Nanshu Lu, Katherine M Steele
           <br><em>Sensors</em> | <a href='https://www.mdpi.com/1424-8220/18/4/1269' style="text-decoration: underline" class="text-secondary"> Link</a></p>
 
         </div>
+    </section>
+
+    <!-- Teaching Section -->
+    <section class="page-section portfolio" id="teaching">
+    <!-- <section class="page-section bg-primary text-white mb-0" id="research"> -->
+      <div class="container">
+
+        <!-- Teaching Section Heading -->
+        <h2 class="page-section-heading text-center text-uppercase text-secondary font-weight-light mb-0">Teaching</h2>
+        <hr>
+        <div class="row">
+
+          <!-- Teaching Item 1 -->
+          <div class="col-md-8 col-lg-6">
+            <h1 class="masthead-heading font-weight-normal">Control System Analysis I</h1>
+            <h2 class="masthead-sub-heading text-secondary font-weight-light">ECE 447, UW</h2>
+            <p class="lead">Details to come</p>
+          </div>
+
+      </div>
+      </div>
+    </section>
+
+    <!-- Service Section -->
+    <section class="page-section portfolio" id="service">
+    <!-- <section class="page-section bg-primary text-white mb-0" id="research"> -->
+      <div class="container">
+
+        <!-- Service Section Heading -->
+        <h2 class="page-section-heading text-center text-uppercase text-secondary font-weight-light mb-0">Service</h2>
+        <hr>
+        <div class="row">
+
+          <!-- Service Item 1 -->
+          <div class="col-md-8 col-lg-6">
+            <h1 class="masthead-heading font-weight-normal">ECE Graduate Student Association Lead</h1>
+            <h2 class="masthead-sub-heading text-secondary font-weight-light">UW</h2>
+            <p class="lead">Details to come</p>
+          </div>
+
+          <!-- Service Item 2 -->
+          <div class="col-md-8 col-lg-6">
+            <h1 class="masthead-heading font-weight-normal">Student Union Steward</h1>
+            <h2 class="masthead-sub-heading text-secondary font-weight-light">UW</h2>
+            <p class="lead">Details to come</p>
+          </div>
+
+      </div>
+      </div>
     </section>
 
   <!-- Contact Section -->
@@ -325,7 +362,7 @@ Muscle interfaces could enable bilateral device interaction decreasing fatigue a
   <!-- Copyright Section -->
   <section class="copyright py-4 text-center text-white">
     <div class="container">
-      <small>Copyright &copy; Momona Yamagami 2019</small>
+      <small>Copyright &copy; Momona Yamagami 2020</small>
     </div>
   </section>
 
@@ -352,7 +389,7 @@ Muscle interfaces could enable bilateral device interaction decreasing fatigue a
             <div class="row justify-content-center">
               <div class="col-lg-8">
                 <!-- Portfolio Modal - Title -->
-                <h2 class="h3 text-secondary text-uppercase mb-0">Modeling Continuous Interactions </h2>
+                <h2 class="h3 text-secondary text-capitalizedcase mb-0">Modeling Intent And Error Correction Continuous Interactions </h2>
                 <hr>
                 </div>
                 <!-- Portfolio Modal - Image -->
@@ -367,22 +404,44 @@ Muscle interfaces could enable bilateral device interaction decreasing fatigue a
                 <p> </p>
                 <p class="lead" align='left'> <b>PROJECT ABSTRACT </b></p>
 
-                <p class="lead" align='left'>In joint human-cyber-physical systems, the human operator may rely on a combination of reactive (feedback) and predictive (feedforward) control. This paper proposes an experimental and analytical approach to simultaneously identify the human feedback and feedforward controllers in the context of human-cyber-physical systems (HCPS).
-In our experiments, participants play a 1DOF reference-tracking video game, tasked to guide a cursor to follow a pseudo-random trajectory. For such tasks, the model inversion hypothesis suggests that the human operator would implement as a feedforward controller the inverse of the cyber-physical-system dynamics. Our results indicate that at lower frequencies (<.30 Hz), individuals capably invert the system dynamics to implement a feedforward controller, but at higher frequencies, the magnitudes of the estimated feedforward transformation are approximately half those of the exact model inverse. This suggests that a frequency limit at which individuals are unable to follow the system dynamics, and thus, the model inversion prediction is only applicable at lower frequencies. </p>
+                <p class="lead" align='left'>In human-in-the-loop control systems, operators
+                  can learn to manually control dynamic machines with either
+                  hand using a combination of reactive (feedback) and predictive
+                  (feedforward) control. This paper studies the effect of handedness
+                  on learned controllers and performance during a continuous
+                  trajectory-tracking task. In an experiment with 18 participants,
+                  subjects perform an assay of unimanual trajectory-tracking
+                  and disturbance-rejection tasks through second-order machine
+                  dynamics, first with one hand then the other. To assess how
+                  hand preference (or dominance) affects learned controllers, we
+                  extend, validate, and apply a non-parametric modeling method
+                  to estimate the concurrent feedback and feedforward elements of
+                  subjects’ controllers. We find that handedness does not affect the
+                  learned controller and that controllers transfer between hands.
+                  Observed improvements in time-domain tracking performance
+                  may be attributed to adaptation of feedback to reject disturbances arising exogenously (i.e. applied by the experimenter)
+                  and endogenously (i.e. generated by sensorimotor noise).
+</p>
                 <p> </p>
                 <p> </p>
                 <p class="lead" align='left'> <b>REFERENCES </b></p>
                 <p> </p>
                 <p class="lead" align='left'>
+                  <b>M Yamagami</b>, LN Peterson, D Howell, E Roth, SA Burden.
+                  Effect of Handedness on Learned Controllers and Sensorimotor Noise During Trajectory-Tracking.
+                  <em>Under review in IEEE Transactions on Cybernetics.</em> |
+                  <a href='https://www.biorxiv.org/content/biorxiv/early/2020/08/04/2020.08.01.232454.full.pdf' class="text-secondary" style="text-decoration: underline">Link </a></p>
+                <p class="lead" align='left'>
                   <b>M Yamagami</b>, D Howell, E Roth, SA Burden.
                   Contributions of feedforward and feedback control in a manual trajectory-tracking task.
-                  <em>2nd IFAC Conference on Cyber-Physical & Human Systems, Miami, USA, Dec 14-15, </em>2018. | <a href='https://www.sciencedirect.com/science/article/pii/S2405896319300278'>Link </a></p>
+                  <em>2nd IFAC Conference on Cyber-Physical & Human Systems, Miami, USA, Dec 14-15, </em>2018. |
+                  <a href='https://www.sciencedirect.com/science/article/pii/S2405896319300278' class="text-secondary" style="text-decoration: underline">Link </a></p>
                 <p class="lead" align='left'>
                   B Chasnov, <b>M Yamagami</b>, B Parsa, LJ Ratliff, SA Burden.
                   Contributions of feedforward and feedback control in a manual trajectory-tracking task.
                   <em>Micro- and Nanotechnology Sensors, Systems, and Applications XI,
                     vol. 10982, p. 109822A. International Society for Optics and Photonics, </em>2019. |
-                  <a href='https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10982/109822A/Experiments-with-sensorimotor-games-in-dynamic-humanmachine-interaction/10.1117/12.2519258.full?SSO=1'>Link</a></p>
+                  <a href='https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10982/109822A/Experiments-with-sensorimotor-games-in-dynamic-humanmachine-interaction/10.1117/12.2519258.full?SSO=1' class="text-secondary" style="text-decoration: underline">Link</a></p>
                 <p class="lead" align='left'>
                 <div class="row justify-content-center">
                   <button class="btn btn-primary" href="#" data-dismiss="modal">
@@ -451,13 +510,14 @@ In our experiments, participants play a 1DOF reference-tracking video game, task
             <div class="row justify-content-center">
               <div class="col-lg-8">
                 <!-- Portfolio Modal - Title -->
-                <h3 class="h3 text-uppercase mb-0"><b>Muscle interfaes for improving interaction<b> </h3>
+                <h3 class="h3 text-capitalizedcase mb-0"><b>Muscle Interfaces for Contiuous Device Accessibility<b> </h3>
                 <hr>
                 </div>
                 <!-- Portfolio Modal - Image -->
-                <video width='100%' height='auto' controls>
-                  <source src='img/research/CHIVideo_Final.mp4' type=video/mp4>
-                </video>
+                <!-- <video width='100%' height='auto' controls> -->
+                  <!-- <source src='img/research/CHIVideo_Final.mp4' type=video/mp4> -->
+                  <iframe width="1195" height="672" src="https://www.youtube.com/embed/yZgOD1uzqAI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <!-- </video> -->
               </div>
 
                 <!-- Portfolio Modal - Text -->
@@ -480,11 +540,13 @@ These results suggest muscle interfaces and algorithms that can detect and augme
                   <b>M Yamagami</b>, KM Steele, SA Burden.
                   Decoding Intent With Control Theory: Comparing Muscle Versus Manual Interface Performance. In
                   <em>Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</em>,
-                  2020. | <a href='img\research\Paper097.pdf'> Link </a></p>
+                  2020. | <a href='img\research\Paper097.pdf' class="text-secondary" style="text-decoration: underline"> Link </a>
+                  | <a href='https://youtu.be/KU7c6DjAUuQ' class="text-secondary" style="text-decoration: underline"> Video </a></p>
                 <p class="lead" align='left'>
                   <b>M Yamagami</b>, KM Peters, I Milovanovic, I Kuang, Z Yang, N Lu, KM Steele.
                   Assessment of dry epidermal electrodes for long-term electromyography measurements.
-                  <em>Sensors, 18(4), </em>2018. | <a href='https://www.ncbi.nlm.nih.gov/pubmed/29677129'> Link </a></p>
+                  <em>Sensors, 18(4), </em>2018. |
+                  <a href='https://www.ncbi.nlm.nih.gov/pubmed/29677129' class="text-secondary" style="text-decoration: underline"> Link </a></p>
                 <p class="lead" align='left'>
                 <div class="row justify-content-center">
                   <button class="btn btn-primary" href="#" data-dismiss="modal">
